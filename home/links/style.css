@@ -1,0 +1,12 @@
+.cat{
+    margin-right: 19px;  
+   line-height: 170%;
+   float: left;
+}
+
+
+.cat a{
+    border-right: 3px solid red;
+    padding-right: 15px;
+  
+}
