@@ -1,0 +1,21 @@
+/* body {
+    margin: 0;
+    padding: 250px 450px 0 0;
+}
+
+.www { 
+    background: url('/img/star0.png') no-repeat; 
+    width: 75px;
+    height: 78px;
+    cursor: pointer;
+    float: right;
+}
+
+.www:hover {
+    content: url('/img/star1.png');
+    cursor: pointer;
+}
+
+.www:hover ~ .Str:before {
+    content: url('/img/star1.png');
+} */

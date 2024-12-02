@@ -1,0 +1,31 @@
+.CHESS tr:nth-of-type(odd) td:nth-of-type(even){
+   background: black;
+ }
+
+.CHESS tr:nth-of-type(even) td:nth-of-type(odd){
+   background: black;
+ }
+
+ .CHESS tr:first-of-type, tr:last-of-type{
+   background: rgb(62, 207, 62);
+ }
+
+.CHESS tr td:first-of-type, td:last-of-type{
+   background: rgb(62, 207, 62);
+ } 
+
+.CHESS tr:first-of-type td:nth-of-type(even){
+   background: rgb(62, 207, 62);
+ }
+
+.CHESS tr:last-of-type td:nth-of-type(odd){
+   background: rgb(62, 207, 62);
+ }
+
+.CHESS tr:nth-of-type(even) td:first-of-type{
+   background: rgb(62, 207, 62);
+ }
+
+.CHESS tr:nth-of-type(odd) td:last-of-type{
+   background: rgb(62, 207, 62);
+ }

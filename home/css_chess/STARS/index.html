@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+ body {
+    margin: 0;
+    padding: 250px 450px 0 0;
+}
+
+.www { 
+    background: url('/img/star0.png') no-repeat; 
+    width: 75px;
+    height: 78px;
+    cursor: pointer;
+    float: right;
+}
+
+.www:hover {
+    content: url('/img/star1.png');
+    cursor: pointer;
+}
+
+.www:hover ~ .www:before {
+    content: url('/img/star1.png');
+}
+    </style>
+</head>
+<body>
+
+    <div>
+            <div class='www'></div> 
+            <div class='www'></div>
+            <div class='www'></div>
+            <div class='www'></div>
+            <div class='www'></div>
+            <div class='www'></div>
+            <div class='www'></div>
+            <div class='www'></div>
+    </div>
+    
+</body>
+</html>
+
+
