@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var lastName = prompt('Введите вашу фамилию');
+        var firstName = prompt('Введите ваше имя');
+        var middleName = prompt('Введите ваше отчество');
+        var ageStr = prompt('Введите ваш возраст');
+        var age = parseInt(ageStr);
+        var gender;
+        var genderBase = confirm('ваш пол - Женский?')?(gender='женский'):(gender='мужской');
+        var days = (age * 365);
+        var ageFut = (age + 5);
+        var pension = ((gender == 'мужской') && (age >= 63))?'да':((gender == 'женский') && (age >= 58)?'да':'нет');
+        alert
+            (
+                "ваше ФИО: " + lastName + ' ' + firstName + ' ' + middleName +
+                "\nваш возраст в годах: " + age +
+                '\nваш возраст в днях: ' + days +
+                '\nчерез 5 лет вам будет: ' + ageFut +
+                '\nваш пол: ' + gender +
+                '\nвы на пенсии: ' + pension
+            );
+    </script>
+</body>
+</html>
