@@ -1,0 +1,100 @@
+p,h3,h4{ 
+    font-family: 'Jura', sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+    text-indent: 2em; }
+   h2 { text-align:center;
+       font-family: 'Jura', sans-serif;}
+   
+   body {margin: 0}
+   
+   #euro2:hover {color: #3A5FCD}
+   #food2:hover {color: #3A5FCD}
+   #info2:hover {color: #3A5FCD}
+   #photo2:hover {color:#3A5FCD}
+   #shop2:hover {color: #3A5FCD}
+   #bus2:hover {color: #3A5FCD}
+   
+   #info3:hover {color: #3A5FCD}
+   #euro3:hover {color: #3A5FCD}
+   #food3:hover {color: #3A5FCD}
+   #photo3:hover {color: #3A5FCD}
+   #shop3:hover {color: #3A5FCD}
+   #bus3:hover {color: #3A5FCD}
+   #fb:hover {color: #3A5FCD}
+   #vk:hover {color: #3A5FCD}
+   
+   
+   .containter{margin:0;}
+
+   .vid
+{text-align:center;
+text-indent: 0em}
+
+.bs-cont{
+height: 25em;
+width:100%;}
+
+.bs-col{height: 100vh;}
+
+.img
+{width: 100%;
+height: 30em;}
+
+.col-md-12
+{padding:0 }
+
+.navbar 
+{font-size: 1.5em;}
+
+.germ
+{ padding-left: 3.5em;
+  padding-top: 2em;
+ padding-right: 3.5em;}
+
+.germcenter
+{ text-align: center;
+font-size: 1em;
+height: auto}
+
+.hei{height: 100px}
+
+.thumbnail
+{width: 19em;}
+
+.gall
+{height: 500px}
+
+.embed-responsive-item
+{height: 350px}
+
+.foot
+{background-color: #101010;
+color: white}
+
+.pict
+{width: 387px;
+height: 291px;}
+
+.forms
+{
+background-color:#C1FFC1;
+text-align:center;
+width: 60%;
+margin: auto;
+border:solid 2px #00FF7F;
+}
+
+.textstyle
+{font-family: 'Jura', sans-serif;
+ font-size: 1.2em;}
+
+ .glyphicon
+ {font-size: 3em;
+ text-align: center;}
+
+.galler
+{margin: 4px;}
+
+
+

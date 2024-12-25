@@ -1,0 +1,294 @@
+
+p,h3,h4{ 
+    font-family: 'Jura', sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+    text-indent: 2em; 
+}
+
+   h2 { text-align:center;
+       font-family: 'Jura', sans-serif;
+    }
+    .textstyle{
+        font-family: 'Jura', sans-serif;
+        font-size: 1.2em;
+        text-align: justify;
+        text-indent: 2em; 
+    }
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bbb {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+} 
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    
+}
+body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+    background-color:rgb(253, 243, 233);
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba( 0, 0, 0,.1);
+}
+.navbar .conteiner{
+    height:inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:linear-gradient(  white, rgba(3, 1, 24, 0.995)) ;
+    
+    
+}
+.navbar .conteiner img{
+    width: 100px;
+    height: 60px;
+    
+}
+.navbar-menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    
+}
+.navbar-menu li{
+    display: inline-block;
+}
+.navbar-menu li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgba(72, 16, 139, 0.854);
+    transition-duration: 0.5s;
+    
+    
+}
+    .navbar-menu li a:hover{
+        color:black;
+        transform: scale(1.2)
+        
+}
+.navbar_wrap{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+
+.slider{
+    
+    overflow:hidden;
+    clear: both;
+    
+}
+.middle{
+    position: absolute;
+    transform: translate(-50% -50%);
+    
+}
+.navigation{
+    position: absolute;
+    bottom: 16px;
+    left:50%;
+    transform:translate(-50%);
+    display: flex;
+}
+.bar{
+    height: 8px;
+    width: 30px;
+    margin: 6px;
+    cursor: pointer;
+    background-color:#ddd;
+    opacity:1;
+    border-radius:10px;
+    transition: all .4s ease;
+}
+
+.bar:hover{
+    opacity:0.8;
+    transform: scale(1.2);
+
+}
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+.slides{
+    width: 400%;
+    height: 100%;
+    display:flex;
+}
+ .slide{
+    width: 25%;
+transition: all .6s ease;
+ }
+ .slide img{
+    width: 100%;
+    height: 300px;
+ }
+
+#r1:checked ~.s1{
+    margin-left: 0;
+}
+#r2:checked ~.s1{
+    margin-left:-25%;
+}
+#r3:checked ~.s1{
+    margin-left: -50%;
+}
+#r4:checked ~.s1{
+    margin-left: -75%;
+}
+.travel{
+    padding-top: 305px;
+    text-align: center;
+   
+}
+
+ .foto_belarus{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+ }
+.foto_belarus>img{
+    width: 200px;
+    height: auto;
+}
+.bottom{
+    background-color:black;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px 20px 0 0;
+    
+}
+@media all and (max-width: 600px) {
+    .main p{
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+    .main{
+        text-align: justify;
+       
+    }
+    .main li{
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+    
+    [alt="d"]{
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+    
+        
+        .foto_belarus {
+            display: flex;
+            gap: 3px;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px; 
+            height: 100vh; 
+        }
+        .foto_belarus img{
+            width: 170px; 
+            
+        }
+        .iframe{
+            width: 500px;
+            
+            
+        }
+        .iframe h3{
+            text-align: center;
+        }
+        .navbar-menu{
+            padding: 10px;
+        }
+        .navbar-menu ul{
+            flex-direction:column;
+            align-items: center;
+        }
+       .navbar-menu li{
+            padding-left: 0;
+            padding-right: 0;}
+    }
+
+    @media all and (max-width: 450px){
+        .foto_belarus {
+            display: flex;
+            gap: 3px;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px; 
+            height: 70%; 
+        }
+        .navbar-menu{
+            padding: 0;
+            padding-bottom: 16px;text-align: center;
+        }
+        .navbar-menu img{
+            height: 300px;
+        }
+        .navbar-menu li{
+            
+                display: inline-block;
+                height: 40px;
+                list-style-type: none;
+                
+            
+            
+        }
+        .navbar a{
+            display: inline-block;
+                height: 40px;
+                list-style-type: none;
+                text-align: center;
+        } 
+       
+    }
+    
+       
+
+
+
